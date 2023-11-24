@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>부모자식태그와 목차태그</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1><a href="index.html">WEB</a></h1>
+        <ol>
+            <li><h2><a href="HTML1.html">HTML</a></h2></li>
+        </ol>
+            <ol>
+                <li><a href="HTML기초알기.html">HTML기초 배우기</a></li>
+                <li><a href="줄바꿈과 단락조절.html">줄바꿈 태그와 단락조절</a></li>
+                <li><a href="HTML이 중요한 이유.html">HTML이 중요한 이유</a></li>
+                <li><a href="부모자식태그와 목차태그.html">부모자식태그와 목차태그</a></li>
+                <li><a href="문서의 구조와 자주쓰는 태그.html">문서의 구조와 자주쓰는 태그들</a></li>
+                <li><a href="태그로 링크걸기.html">태그로 링크걸기</a></li>
+                <li><a href="웹사이트만들기.html">웹사이트 만들기</a></li>
+                <li><a href="인터넷의 기본원리.html">인터넷의 기본원리</a></li>
+                <li><a href="웹호스팅 실습.html">웹호스팅 실습</a></li>
+            </ol>
+            <h3>부모자식과 목록</h3>
+<p>태그간의 관계를 나타내는 부모(parent)와 자식(child)에 대해서 알아보자.</p>
+<p>< parent >
+<br>< child >< /child >
+<br>< /parent >
+<br>위의 코드에서(실제로 저런태그는 없다.)
+<br>parent태그에 대해서 child태그를 자식 태그라고 하며 또 child태그에 대해서 parent태그를 부모태그라고 한다.
+<br>< p > 
+<br>< a href="https://opentutorials.org">opentutorials < /a >
+<br>< /p > 
+<br>위의 태그를 보면 p 태그가 a태그의 부모, a태그가 p태그의 자식이 된다.
+<br>그러나 꼭 a태그가 p태그의 자식이어야 하는 것은 아니며 반대경우도 마찬가지이다.
+<br>직장의 상하관계와 같이 필요에 따라서 관계가 달라질 수 있는 것이다. 
+<br>그러나 몇몇 태그들은 부모자식관계처럼 고정된 관계인 태그들이 있다.
+</p>
+<p><br><br style="margin-top: 45px;">목차에 대해서 다뤄 볼 것이다.
+<br>1.HTML<br>
+2.CSS <br>
+2.javascript <br>
+목차비슷하게 나오지만 위의 글은br로 만든 것이다. 
+<br>목차를 표현할때 쓰라고 마련되어있는 태그가 있다. 그걸 써야한다. 그래야 웹페이지가 더 가치있게 된다. 
+<br>목차는 영어로list이다. 앞에 두글자인li가 목차 태그가 된다.
+<li>1.HTML</li>
+<li>2.CSS</li>
+<li>3.javascript</li>
+<br>위의 글은 li태그를 사용해서 만든 것이다.
+<br>목록과 목록을 서로 구분할 필요가 있는데 이때 사용하는 태그가ul태그이다. 
+<li>1.HTML</li>
+<li>2.CSS</li>
+<li>3.javascript</li>
+<li>홍길동</li>
+<li>호랑이</li>
+<li>피카츄</li>
+<br>위의 글은 목차와 참가자 목록을 작성한 것이다. 그러나ul태그를 사용하지 않아 경계가없어서 구분이 되지 않는다.
+<ul><li>1.HTML</li>
+<li>2.CSS</li>
+<li>3.javascript</li>
+</ul>
+<ul><li>홍길동</li>
+<li>호랑이</li>
+<li>피카츄</li>
+</ul>
+<br>위의 글은 ul태그를 이용해 구분할 수 있는 경계를 만들어 준 것이다.
+<br>보는 것 처럼 li태그는 ul태그를 반드시 필요로 한다. ul태그 역시 li태그가 없다면 존재 가치가 없다.
+<br><br style="margin-top: 45px;"> 공부를 할 때는 항상 극단적으로 생각해야 한다. 극단적이지 않은 경우에는 코딩을 할 필요가 없기 때문이다.
+<br>예를 들어 위의 목차가 3개가 적혀 있지만 만약1억개라면? 힘들게 1억개를 다 작성했는데 맨위 1번을 지워달라고 한다면 나머지 목차의 번호들도 전부 다시 수정해야 한다.
+<br>이런 절망스렁 상황에서 우릴 구원해 주는 것이 바로 코딩이다. 
+<br>ul태그는 <u>u</u>nordered <strong>l</strong>ist의 약자이고
+<br>ol태그는 <u>o</u>rdered <strong>l</strong>ist의 약자이다.
+<ol><li>1.HTML</li>
+    <li>2.CSS</li>
+    <li>3.javascript</li>
+    </ol>
+    <ul><li>홍길동</li>
+    <li>호랑이</li>
+    <li>피카츄</li>
+    </ul>
+<br>이렇게 목차를 추가해 보았다. ol태그를 쓰면 목차에 자동적으로 번호가 매겨진다.
+</p>
+    </body>
+</html>
